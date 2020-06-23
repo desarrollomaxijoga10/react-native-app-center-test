@@ -19,7 +19,13 @@ export default class Login extends Component {
       isLoading: false,
     };
   }
-
+  showAlert = (title, msg) =>
+    Alert.alert(
+      title,
+      msg,
+      [{text: 'OK', onPress: () => console.log('OK Pressed')}],
+      {cancelable: false},
+    );
   updateInputVal = (val, prop) => {
     const state = this.state;
     state[prop] = val;
@@ -46,7 +52,13 @@ export default class Login extends Component {
           });
           this.props.navigation.navigate('Dashboard');
         })
-        .catch((error) => this.setState({errorMessage: error.message}));
+        .catch((error) => {
+          this.setState({
+            isLoading: false,
+          });
+          this.setState({errorMessage: error.message});
+          this.showAlert('Error', error.message);
+        });
     }
   };
 
@@ -75,6 +87,10 @@ export default class Login extends Component {
           secureTextEntry={true}
         />
         <Button
+          disabled={
+            this.state.email === '' ||
+            this.state.password === ''
+          }
           color="#3740FE"
           title="Signin"
           onPress={() => this.userLogin()}

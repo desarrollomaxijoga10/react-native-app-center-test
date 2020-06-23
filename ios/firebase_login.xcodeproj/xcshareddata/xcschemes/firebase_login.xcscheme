@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "firebase_login.app"
-               BlueprintName = "firebase_login"
-               ReferencedContainer = "container:firebase_login.xcodeproj">
+               BuildableName = "teamdevops.app"
+               BlueprintName = "teamdevops"
+               ReferencedContainer = "container:teamdevops.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "firebase_loginTests.xctest"
-               BlueprintName = "firebase_loginTests"
-               ReferencedContainer = "container:firebase_login.xcodeproj">
+               BuildableName = "teamdevopsTests.xctest"
+               BlueprintName = "teamdevopsTests"
+               ReferencedContainer = "container:teamdevops.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "firebase_login.app"
-            BlueprintName = "firebase_login"
-            ReferencedContainer = "container:firebase_login.xcodeproj">
+            BuildableName = "teamdevops.app"
+            BlueprintName = "teamdevops"
+            ReferencedContainer = "container:teamdevops.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "firebase_login.app"
-            BlueprintName = "firebase_login"
-            ReferencedContainer = "container:firebase_login.xcodeproj">
+            BuildableName = "teamdevops.app"
+            BlueprintName = "teamdevops"
+            ReferencedContainer = "container:teamdevops.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

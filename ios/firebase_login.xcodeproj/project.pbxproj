@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* firebase_loginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* firebase_loginTests.m */; };
+		00E356F31AD99517003FC87E /* teamdevopsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* teamdevopsTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2152420A61DDCF0E57052118 /* libPods-firebase_login-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB6F630EED1DC3CAF63CE9FE /* libPods-firebase_login-tvOS.a */; };
+		2152420A61DDCF0E57052118 /* libPods-teamdevops-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB6F630EED1DC3CAF63CE9FE /* libPods-teamdevops-tvOS.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* firebase_loginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* firebase_loginTests.m */; };
-		3BDDF152FB566834604D0BE6 /* libPods-firebase_login-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30750DCADC8C452A0C16CD02 /* libPods-firebase_login-tvOSTests.a */; };
-		AE226690B5E4CA1D16CEFCE7 /* libPods-firebase_login.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEBA58BD8E81FA83203DC62 /* libPods-firebase_login.a */; };
-		CD00A1713AE5CAF306B629E5 /* libPods-firebase_login-firebase_loginTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A2B55DB0C717C1720FF236 /* libPods-firebase_login-firebase_loginTests.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* teamdevopsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* teamdevopsTests.m */; };
+		3BDDF152FB566834604D0BE6 /* libPods-teamdevops-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30750DCADC8C452A0C16CD02 /* libPods-teamdevops-tvOSTests.a */; };
+		AE226690B5E4CA1D16CEFCE7 /* libPods-teamdevops.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEBA58BD8E81FA83203DC62 /* libPods-teamdevops.a */; };
+		CD00A1713AE5CAF306B629E5 /* libPods-teamdevops-teamdevopsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A2B55DB0C717C1720FF236 /* libPods-teamdevops-teamdevopsTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,45 +28,45 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = firebase_login;
+			remoteInfo = teamdevops;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "firebase_login-tvOS";
+			remoteInfo = "teamdevops-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* firebase_loginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = firebase_loginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* teamdevopsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = teamdevopsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* firebase_loginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = firebase_loginTests.m; sourceTree = "<group>"; };
-		1255AEB328652061AC87667F /* Pods-firebase_login-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebase_login-tvOS.release.xcconfig"; path = "Target Support Files/Pods-firebase_login-tvOS/Pods-firebase_login-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* firebase_login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firebase_login.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = firebase_login/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = firebase_login/AppDelegate.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* teamdevopsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = teamdevopsTests.m; sourceTree = "<group>"; };
+		1255AEB328652061AC87667F /* Pods-teamdevops-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-teamdevops-tvOS.release.xcconfig"; path = "Target Support Files/Pods-teamdevops-tvOS/Pods-teamdevops-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* teamdevops.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = teamdevops.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = teamdevops/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = teamdevops/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = firebase_login/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = firebase_login/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = firebase_login/main.m; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* firebase_login-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "firebase_login-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* firebase_login-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "firebase_login-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		30750DCADC8C452A0C16CD02 /* libPods-firebase_login-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-firebase_login-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		40B770FEF02415F0DE971DE9 /* Pods-firebase_login-firebase_loginTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebase_login-firebase_loginTests.debug.xcconfig"; path = "Target Support Files/Pods-firebase_login-firebase_loginTests/Pods-firebase_login-firebase_loginTests.debug.xcconfig"; sourceTree = "<group>"; };
-		496DA19A8762D6A219A7DB5F /* Pods-firebase_login-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebase_login-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-firebase_login-tvOSTests/Pods-firebase_login-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5D7AAC68373A58B291C498DA /* Pods-firebase_login-firebase_loginTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebase_login-firebase_loginTests.release.xcconfig"; path = "Target Support Files/Pods-firebase_login-firebase_loginTests/Pods-firebase_login-firebase_loginTests.release.xcconfig"; sourceTree = "<group>"; };
-		64084E7BC849BBAE3FB07AA7 /* Pods-firebase_login-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebase_login-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-firebase_login-tvOS/Pods-firebase_login-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		96C7C93A57E53BC7F092D157 /* Pods-firebase_login.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebase_login.debug.xcconfig"; path = "Target Support Files/Pods-firebase_login/Pods-firebase_login.debug.xcconfig"; sourceTree = "<group>"; };
-		A710DAE04CB0BC4F2558525E /* Pods-firebase_login-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebase_login-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-firebase_login-tvOSTests/Pods-firebase_login-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		BB6F630EED1DC3CAF63CE9FE /* libPods-firebase_login-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-firebase_login-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBE5B4A767C595E995A6A27A /* Pods-firebase_login.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebase_login.release.xcconfig"; path = "Target Support Files/Pods-firebase_login/Pods-firebase_login.release.xcconfig"; sourceTree = "<group>"; };
-		D9A2B55DB0C717C1720FF236 /* libPods-firebase_login-firebase_loginTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-firebase_login-firebase_loginTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = teamdevops/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = teamdevops/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = teamdevops/main.m; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* teamdevops-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "teamdevops-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* teamdevops-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "teamdevops-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30750DCADC8C452A0C16CD02 /* libPods-teamdevops-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-teamdevops-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40B770FEF02415F0DE971DE9 /* Pods-teamdevops-teamdevopsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-teamdevops-teamdevopsTests.debug.xcconfig"; path = "Target Support Files/Pods-teamdevops-teamdevopsTests/Pods-teamdevops-teamdevopsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		496DA19A8762D6A219A7DB5F /* Pods-teamdevops-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-teamdevops-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-teamdevops-tvOSTests/Pods-teamdevops-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5D7AAC68373A58B291C498DA /* Pods-teamdevops-teamdevopsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-teamdevops-teamdevopsTests.release.xcconfig"; path = "Target Support Files/Pods-teamdevops-teamdevopsTests/Pods-teamdevops-teamdevopsTests.release.xcconfig"; sourceTree = "<group>"; };
+		64084E7BC849BBAE3FB07AA7 /* Pods-teamdevops-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-teamdevops-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-teamdevops-tvOS/Pods-teamdevops-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		96C7C93A57E53BC7F092D157 /* Pods-teamdevops.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-teamdevops.debug.xcconfig"; path = "Target Support Files/Pods-teamdevops/Pods-teamdevops.debug.xcconfig"; sourceTree = "<group>"; };
+		A710DAE04CB0BC4F2558525E /* Pods-teamdevops-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-teamdevops-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-teamdevops-tvOSTests/Pods-teamdevops-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		BB6F630EED1DC3CAF63CE9FE /* libPods-teamdevops-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-teamdevops-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBE5B4A767C595E995A6A27A /* Pods-teamdevops.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-teamdevops.release.xcconfig"; path = "Target Support Files/Pods-teamdevops/Pods-teamdevops.release.xcconfig"; sourceTree = "<group>"; };
+		D9A2B55DB0C717C1720FF236 /* libPods-teamdevops-teamdevopsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-teamdevops-teamdevopsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		FCEBA58BD8E81FA83203DC62 /* libPods-firebase_login.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-firebase_login.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCEBA58BD8E81FA83203DC62 /* libPods-teamdevops.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-teamdevops.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD00A1713AE5CAF306B629E5 /* libPods-firebase_login-firebase_loginTests.a in Frameworks */,
+				CD00A1713AE5CAF306B629E5 /* libPods-teamdevops-teamdevopsTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE226690B5E4CA1D16CEFCE7 /* libPods-firebase_login.a in Frameworks */,
+				AE226690B5E4CA1D16CEFCE7 /* libPods-teamdevops.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2152420A61DDCF0E57052118 /* libPods-firebase_login-tvOS.a in Frameworks */,
+				2152420A61DDCF0E57052118 /* libPods-teamdevops-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,20 +98,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BDDF152FB566834604D0BE6 /* libPods-firebase_login-tvOSTests.a in Frameworks */,
+				3BDDF152FB566834604D0BE6 /* libPods-teamdevops-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* firebase_loginTests */ = {
+		00E356EF1AD99517003FC87E /* teamdevopsTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* firebase_loginTests.m */,
+				00E356F21AD99517003FC87E /* teamdevopsTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = firebase_loginTests;
+			path = teamdevopsTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -125,20 +125,20 @@
 		05C6A8913D403ADA55575831 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				96C7C93A57E53BC7F092D157 /* Pods-firebase_login.debug.xcconfig */,
-				CBE5B4A767C595E995A6A27A /* Pods-firebase_login.release.xcconfig */,
-				40B770FEF02415F0DE971DE9 /* Pods-firebase_login-firebase_loginTests.debug.xcconfig */,
-				5D7AAC68373A58B291C498DA /* Pods-firebase_login-firebase_loginTests.release.xcconfig */,
-				64084E7BC849BBAE3FB07AA7 /* Pods-firebase_login-tvOS.debug.xcconfig */,
-				1255AEB328652061AC87667F /* Pods-firebase_login-tvOS.release.xcconfig */,
-				496DA19A8762D6A219A7DB5F /* Pods-firebase_login-tvOSTests.debug.xcconfig */,
-				A710DAE04CB0BC4F2558525E /* Pods-firebase_login-tvOSTests.release.xcconfig */,
+				96C7C93A57E53BC7F092D157 /* Pods-teamdevops.debug.xcconfig */,
+				CBE5B4A767C595E995A6A27A /* Pods-teamdevops.release.xcconfig */,
+				40B770FEF02415F0DE971DE9 /* Pods-teamdevops-teamdevopsTests.debug.xcconfig */,
+				5D7AAC68373A58B291C498DA /* Pods-teamdevops-teamdevopsTests.release.xcconfig */,
+				64084E7BC849BBAE3FB07AA7 /* Pods-teamdevops-tvOS.debug.xcconfig */,
+				1255AEB328652061AC87667F /* Pods-teamdevops-tvOS.release.xcconfig */,
+				496DA19A8762D6A219A7DB5F /* Pods-teamdevops-tvOSTests.debug.xcconfig */,
+				A710DAE04CB0BC4F2558525E /* Pods-teamdevops-tvOSTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* firebase_login */ = {
+		13B07FAE1A68108700A75B9A /* teamdevops */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -149,7 +149,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = firebase_login;
+			name = teamdevops;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -157,10 +157,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				FCEBA58BD8E81FA83203DC62 /* libPods-firebase_login.a */,
-				D9A2B55DB0C717C1720FF236 /* libPods-firebase_login-firebase_loginTests.a */,
-				BB6F630EED1DC3CAF63CE9FE /* libPods-firebase_login-tvOS.a */,
-				30750DCADC8C452A0C16CD02 /* libPods-firebase_login-tvOSTests.a */,
+				FCEBA58BD8E81FA83203DC62 /* libPods-teamdevops.a */,
+				D9A2B55DB0C717C1720FF236 /* libPods-teamdevops-teamdevopsTests.a */,
+				BB6F630EED1DC3CAF63CE9FE /* libPods-teamdevops-tvOS.a */,
+				30750DCADC8C452A0C16CD02 /* libPods-teamdevops-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -175,9 +175,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* firebase_login */,
+				13B07FAE1A68108700A75B9A /* teamdevops */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* firebase_loginTests */,
+				00E356EF1AD99517003FC87E /* teamdevopsTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				05C6A8913D403ADA55575831 /* Pods */,
@@ -190,10 +190,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* firebase_login.app */,
-				00E356EE1AD99517003FC87E /* firebase_loginTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* firebase_login-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* firebase_login-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* teamdevops.app */,
+				00E356EE1AD99517003FC87E /* teamdevopsTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* teamdevops-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* teamdevops-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -201,9 +201,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* firebase_loginTests */ = {
+		00E356ED1AD99517003FC87E /* teamdevopsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "firebase_loginTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "teamdevopsTests" */;
 			buildPhases = (
 				4D2A53E45EED0312380D382E /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -215,14 +215,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = firebase_loginTests;
-			productName = firebase_loginTests;
-			productReference = 00E356EE1AD99517003FC87E /* firebase_loginTests.xctest */;
+			name = teamdevopsTests;
+			productName = teamdevopsTests;
+			productReference = 00E356EE1AD99517003FC87E /* teamdevopsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* firebase_login */ = {
+		13B07F861A680F5B00A75B9A /* teamdevops */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "firebase_login" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "teamdevops" */;
 			buildPhases = (
 				D4B04E334516F9703EA67D3C /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -235,14 +235,14 @@
 			);
 			dependencies = (
 			);
-			name = firebase_login;
-			productName = firebase_login;
-			productReference = 13B07F961A680F5B00A75B9A /* firebase_login.app */;
+			name = teamdevops;
+			productName = teamdevops;
+			productReference = 13B07F961A680F5B00A75B9A /* teamdevops.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* firebase_login-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* teamdevops-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "firebase_login-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "teamdevops-tvOS" */;
 			buildPhases = (
 				6138350F1246B1F76DC3E71C /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -255,14 +255,14 @@
 			);
 			dependencies = (
 			);
-			name = "firebase_login-tvOS";
-			productName = "firebase_login-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* firebase_login-tvOS.app */;
+			name = "teamdevops-tvOS";
+			productName = "teamdevops-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* teamdevops-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* firebase_login-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* teamdevops-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "firebase_login-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "teamdevops-tvOSTests" */;
 			buildPhases = (
 				4B3F3E8F94D0EA2ABC818C2D /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -274,9 +274,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "firebase_login-tvOSTests";
-			productName = "firebase_login-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* firebase_login-tvOSTests.xctest */;
+			name = "teamdevops-tvOSTests";
+			productName = "teamdevops-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* teamdevops-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -305,7 +305,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "firebase_login" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "teamdevops" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -318,10 +318,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* firebase_login */,
-				00E356ED1AD99517003FC87E /* firebase_loginTests */,
-				2D02E47A1E0B4A5D006451C7 /* firebase_login-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* firebase_login-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* teamdevops */,
+				00E356ED1AD99517003FC87E /* teamdevopsTests */,
+				2D02E47A1E0B4A5D006451C7 /* teamdevops-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* teamdevops-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -404,7 +404,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-firebase_login-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-teamdevops-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -426,7 +426,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-firebase_login-firebase_loginTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-teamdevops-teamdevopsTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -448,7 +448,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-firebase_login-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-teamdevops-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -470,7 +470,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-firebase_login-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-teamdevops-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -522,7 +522,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* firebase_loginTests.m in Sources */,
+				00E356F31AD99517003FC87E /* teamdevopsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -548,7 +548,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* firebase_loginTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* teamdevopsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -557,12 +557,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* firebase_login */;
+			target = 13B07F861A680F5B00A75B9A /* teamdevops */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* firebase_login-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* teamdevops-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -574,7 +574,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = firebase_login;
+			path = teamdevops;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -582,14 +582,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 40B770FEF02415F0DE971DE9 /* Pods-firebase_login-firebase_loginTests.debug.xcconfig */;
+			baseConfigurationReference = 40B770FEF02415F0DE971DE9 /* Pods-teamdevops-teamdevopsTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = firebase_loginTests/Info.plist;
+				INFOPLIST_FILE = teamdevopsTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -599,17 +599,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/firebase_login.app/firebase_login";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/teamdevops.app/teamdevops";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D7AAC68373A58B291C498DA /* Pods-firebase_login-firebase_loginTests.release.xcconfig */;
+			baseConfigurationReference = 5D7AAC68373A58B291C498DA /* Pods-teamdevops-teamdevopsTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = firebase_loginTests/Info.plist;
+				INFOPLIST_FILE = teamdevopsTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -619,13 +619,13 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/firebase_login.app/firebase_login";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/teamdevops.app/teamdevops";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96C7C93A57E53BC7F092D157 /* Pods-firebase_login.debug.xcconfig */;
+			baseConfigurationReference = 96C7C93A57E53BC7F092D157 /* Pods-teamdevops.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -635,7 +635,7 @@
 					"$(inherited)",
 					"FB_SONARKIT_ENABLED=1",
 				);
-				INFOPLIST_FILE = firebase_login/Info.plist;
+				INFOPLIST_FILE = teamdevops/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -643,7 +643,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = firebase_login;
+				PRODUCT_NAME = teamdevops;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -652,12 +652,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CBE5B4A767C595E995A6A27A /* Pods-firebase_login.release.xcconfig */;
+			baseConfigurationReference = CBE5B4A767C595E995A6A27A /* Pods-teamdevops.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = firebase_login/Info.plist;
+				INFOPLIST_FILE = teamdevops/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -665,7 +665,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = firebase_login;
+				PRODUCT_NAME = teamdevops;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -673,7 +673,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 64084E7BC849BBAE3FB07AA7 /* Pods-firebase_login-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 64084E7BC849BBAE3FB07AA7 /* Pods-teamdevops-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -684,14 +684,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "firebase_login-tvOS/Info.plist";
+				INFOPLIST_FILE = "teamdevops-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.firebase_login-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.teamdevops-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -701,7 +701,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1255AEB328652061AC87667F /* Pods-firebase_login-tvOS.release.xcconfig */;
+			baseConfigurationReference = 1255AEB328652061AC87667F /* Pods-teamdevops-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -712,14 +712,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "firebase_login-tvOS/Info.plist";
+				INFOPLIST_FILE = "teamdevops-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.firebase_login-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.teamdevops-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -729,7 +729,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 496DA19A8762D6A219A7DB5F /* Pods-firebase_login-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 496DA19A8762D6A219A7DB5F /* Pods-teamdevops-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -739,24 +739,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "firebase_login-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "teamdevops-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.firebase_login-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.teamdevops-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/firebase_login-tvOS.app/firebase_login-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/teamdevops-tvOS.app/teamdevops-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A710DAE04CB0BC4F2558525E /* Pods-firebase_login-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = A710DAE04CB0BC4F2558525E /* Pods-teamdevops-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -766,17 +766,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "firebase_login-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "teamdevops-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.firebase_login-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.teamdevops-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/firebase_login-tvOS.app/firebase_login-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/teamdevops-tvOS.app/teamdevops-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -897,7 +897,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "firebase_loginTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "teamdevopsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -906,7 +906,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "firebase_login" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "teamdevops" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -915,7 +915,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "firebase_login-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "teamdevops-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -924,7 +924,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "firebase_login-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "teamdevops-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -933,7 +933,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "firebase_login" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "teamdevops" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

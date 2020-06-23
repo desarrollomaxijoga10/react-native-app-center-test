@@ -20,7 +20,13 @@ export default class Signup extends Component {
       isLoading: false,
     };
   }
-
+  showAlert = (title, msg) =>
+    Alert.alert(
+      title,
+      msg,
+      [{text: 'OK', onPress: () => console.log('OK Pressed')}],
+      {cancelable: false},
+    );
   updateInputVal = (val, prop) => {
     const state = this.state;
     state[prop] = val;
@@ -28,7 +34,11 @@ export default class Signup extends Component {
   };
 
   registerUser = () => {
-    if (this.state.email === '' && this.state.password === '') {
+    if (
+      this.state.email === '' ||
+      this.state.password === '' ||
+      this.state.displayName === ''
+    ) {
       Alert.alert('Enter details to signup!');
     } else {
       this.setState({
@@ -48,9 +58,18 @@ export default class Signup extends Component {
             email: '',
             password: '',
           });
-          this.props.navigation.navigate('Login');
+          this.showAlert('Exito', 'Bienvenido... ');
+          setTimeout(() => {
+            this.props.navigation.navigate('Login');
+          }, 1000);
         })
-        .catch((error) => this.setState({errorMessage: error.message}));
+        .catch((error) => {
+          this.setState({
+            isLoading: false,
+          });
+          this.setState({errorMessage: error.message});
+          this.showAlert('Error', error.message);
+        });
     }
   };
 
@@ -85,6 +104,11 @@ export default class Signup extends Component {
           secureTextEntry={true}
         />
         <Button
+          disabled={
+            this.state.email === '' ||
+            this.state.password === '' ||
+            this.state.displayName === ''
+          }
           color="#3740FE"
           title="Signup"
           onPress={() => this.registerUser()}
