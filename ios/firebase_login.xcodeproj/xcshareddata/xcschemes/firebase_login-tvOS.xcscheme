@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "firebase_login-tvOS.app"
-               BlueprintName = "firebase_login-tvOS"
-               ReferencedContainer = "container:firebase_login.xcodeproj">
+               BuildableName = "teamdevops-tvOS.app"
+               BlueprintName = "teamdevops-tvOS"
+               ReferencedContainer = "container:teamdevops.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "firebase_login-tvOSTests.xctest"
-               BlueprintName = "firebase_login-tvOSTests"
-               ReferencedContainer = "container:firebase_login.xcodeproj">
+               BuildableName = "teamdevops-tvOSTests.xctest"
+               BlueprintName = "teamdevops-tvOSTests"
+               ReferencedContainer = "container:teamdevops.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "firebase_login-tvOS.app"
-            BlueprintName = "firebase_login-tvOS"
-            ReferencedContainer = "container:firebase_login.xcodeproj">
+            BuildableName = "teamdevops-tvOS.app"
+            BlueprintName = "teamdevops-tvOS"
+            ReferencedContainer = "container:teamdevops.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "firebase_login-tvOS.app"
-            BlueprintName = "firebase_login-tvOS"
-            ReferencedContainer = "container:firebase_login.xcodeproj">
+            BuildableName = "teamdevops-tvOS.app"
+            BlueprintName = "teamdevops-tvOS"
+            ReferencedContainer = "container:teamdevops.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

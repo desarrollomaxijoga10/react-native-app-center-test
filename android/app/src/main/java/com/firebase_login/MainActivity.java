@@ -1,4 +1,4 @@
-package com.firebase_login;
+package com.kreitech.teamdevops;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "firebase_login";
+    return "teamdevops";
   }
 }

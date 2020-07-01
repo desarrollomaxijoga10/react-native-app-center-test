@@ -44,8 +44,8 @@ def flipper_post_install(installer)
   end
 end
 
-target 'firebase_login' do
-  # Pods for firebase_login
+target 'teamdevops' do
+  # Pods for teamdevops
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
   pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
   pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
@@ -77,7 +77,7 @@ target 'firebase_login' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  target 'firebase_loginTests' do
+  target 'teamdevopsTests' do
     inherit! :complete
     # Pods for testing
   end
@@ -94,10 +94,10 @@ target 'firebase_login' do
   end
 end
 
-target 'firebase_login-tvOS' do
-  # Pods for firebase_login-tvOS
+target 'teamdevops-tvOS' do
+  # Pods for teamdevops-tvOS
 
-  target 'firebase_login-tvOSTests' do
+  target 'teamdevops-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end
